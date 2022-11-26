@@ -10,7 +10,7 @@ while modo != '1' and modo != '2':
   modo = input("\nVocê quer jogar contra a IA digite 1, se quiser ver IA vs IA digite 2: ")
 
 while(not ganhador):
-  print('Jogador: ' + token[player] +'\n')
+  print('\nJogador: ' + token[player] +'\n')
 
   printBoard(board)
   print("\n")
